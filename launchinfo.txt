@@ -1,0 +1,6 @@
+while in venv for reduced_food_web_app:
+    uv run gunicorn -b 127.0.0.1:5001 main:app
+
+start up or restart nginx:
+sudo systemctl start nginx
+sudo systemctl reload nginx 
